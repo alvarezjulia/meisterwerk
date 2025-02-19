@@ -1,0 +1,5 @@
+package: ports
+output: ports/openapi_http.gen.go
+generate:
+  std-http-server: true
+  models: true
